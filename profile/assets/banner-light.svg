@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="CutOptim — cutting optimization for panels, profiles, timber and true-shape nesting">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#f6f1e2"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#0d0f14" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="20" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="20" fill="none" stroke="#0d0f14" stroke-opacity="0.08"/>
+
+  <g transform="translate(820 52)">
+    <rect width="400" height="216" rx="6" fill="#ffffff" stroke="#9a7208" stroke-opacity="0.6" stroke-width="2"/>
+    <rect x="8" y="8" width="150" height="120" rx="3" fill="#e0aa1c"/>
+    <rect x="164" y="8" width="150" height="120" rx="3" fill="#e9bd45"/>
+    <rect x="320" y="8" width="72" height="120" rx="3" fill="#f0cd6a"/>
+    <rect x="8" y="134" width="96" height="74" rx="3" fill="#edc455"/>
+    <rect x="110" y="134" width="96" height="74" rx="3" fill="#e3b02b"/>
+    <rect x="212" y="134" width="120" height="74" rx="3" fill="#f3d37c"/>
+    <rect x="338" y="134" width="54" height="74" rx="3" fill="none" stroke="#9a7208" stroke-opacity="0.55" stroke-dasharray="5 4"/>
+    <path d="M161 0V216M317 0V131M0 131H400" stroke="#d2412f" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.8"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="64" y="128" font-size="72" font-weight="800" fill="#0d0f14" letter-spacing="-1.5">Cut<tspan fill="#9a7208">Optim</tspan></text>
+    <text x="66" y="176" font-size="24" fill="#3a3f4d">Cutting optimization for panels, profiles, timber</text>
+    <text x="66" y="208" font-size="24" fill="#3a3f4d">and true-shape nesting.</text>
+    <g font-size="17" font-weight="600">
+      <rect x="64" y="236" width="88" height="34" rx="17" fill="#9a7208" fill-opacity="0.10" stroke="#9a7208" stroke-opacity="0.5"/>
+      <text x="108" y="258" text-anchor="middle" fill="#7a5a06">App</text>
+      <rect x="162" y="236" width="138" height="34" rx="17" fill="#9a7208" fill-opacity="0.10" stroke="#9a7208" stroke-opacity="0.5"/>
+      <text x="231" y="258" text-anchor="middle" fill="#7a5a06">Engine API</text>
+      <rect x="310" y="236" width="88" height="34" rx="17" fill="#9a7208" fill-opacity="0.10" stroke="#9a7208" stroke-opacity="0.5"/>
+      <text x="354" y="258" text-anchor="middle" fill="#7a5a06">SDKs</text>
+      <rect x="408" y="236" width="88" height="34" rx="17" fill="#9a7208" fill-opacity="0.10" stroke="#9a7208" stroke-opacity="0.5"/>
+      <text x="452" y="258" text-anchor="middle" fill="#7a5a06">MCP</text>
+    </g>
+  </g>
+</svg>
